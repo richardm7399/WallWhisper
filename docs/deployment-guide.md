@@ -104,7 +104,7 @@ camera_speaker:
 
 ```bash
 # 1. 克隆项目
-git clone https://github.com/treychen/WallWhisper.git
+git clone https://github.com/treychen-369/WallWhisper.git
 cd WallWhisper
 
 # 2. 准备配置文件

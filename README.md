@@ -126,6 +126,13 @@ graph TB
 
 **整个流程在 10 秒内完成：** 检测到人 → AI 生成内容 → TTS 合成语音 → 摄像头喇叭播放 🎉
 
+<details>
+<summary>📷 如果 Mermaid 图无法渲染，点击查看架构图 PNG</summary>
+
+![WallWhisper Architecture](docs/images/architecture.png)
+
+</details>
+
 ## 🎬 三种交互模式
 
 | 模式 | 触发条件 | 内容 | 示例 |
